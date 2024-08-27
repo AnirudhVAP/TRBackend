@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:8081", "http://localhost:5173", "http://192.168.1.10:8080"})
+
 @RequestMapping("/api/subjects")
 
 public class SubjectController {

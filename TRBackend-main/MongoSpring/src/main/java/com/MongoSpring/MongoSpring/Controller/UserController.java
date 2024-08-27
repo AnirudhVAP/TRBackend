@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:8081", "http://localhost:5173", "http://192.168.1.2:8080"})
+
 @RequestMapping("/api")
 public class UserController {
 

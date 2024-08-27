@@ -17,7 +17,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/hrQuestions")
-@CrossOrigin(origins = {"http://localhost:8081", "http://localhost:5173", "http://192.168.1.10:8080"}) // Add this line
 public class HrQuestionsController {
     private final HrService HrService;
 
